@@ -1,4 +1,4 @@
-Small example using Elasticsearch with the php API
+Elasticsearch (php API) basic example 
 =================
 
 This is a sample using elasticsearch and assume the all the configuration are set on DEFAULT. This example use orginal PHP API that come from elasticsearch.org.
