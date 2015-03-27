@@ -1,0 +1,15 @@
+[2015-03-26 16:48:51,878][INFO ][node                     ] [search_1] version[1.5.0], pid[10424], build[5448160/2015-03-23T14:30:58Z]
+[2015-03-26 16:48:51,878][INFO ][node                     ] [search_1] initializing ...
+[2015-03-26 16:48:51,881][INFO ][plugins                  ] [search_1] loaded [], sites []
+[2015-03-26 16:48:53,500][INFO ][node                     ] [search_1] initialized
+[2015-03-26 16:48:53,501][INFO ][node                     ] [search_1] starting ...
+[2015-03-26 16:48:53,643][INFO ][transport                ] [search_1] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/10.1.10.176:9301]}
+[2015-03-26 16:48:53,656][INFO ][discovery                ] [search_1] production/XwaFN53RSda6ps1lm2_r4g
+[2015-03-26 16:48:57,431][INFO ][cluster.service          ] [search_1] new_master [search_1][XwaFN53RSda6ps1lm2_r4g][Mohammads-iMac.local][inet[/10.1.10.176:9301]], reason: zen-disco-join (elected_as_master)
+[2015-03-26 16:48:57,443][INFO ][http                     ] [search_1] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/10.1.10.176:9201]}
+[2015-03-26 16:48:57,444][INFO ][node                     ] [search_1] started
+[2015-03-26 16:48:57,453][INFO ][gateway                  ] [search_1] recovered [0] indices into cluster_state
+[2015-03-26 16:49:21,606][INFO ][node                     ] [search_1] stopping ...
+[2015-03-26 16:49:21,616][INFO ][node                     ] [search_1] stopped
+[2015-03-26 16:49:21,617][INFO ][node                     ] [search_1] closing ...
+[2015-03-26 16:49:21,620][INFO ][node                     ] [search_1] closed

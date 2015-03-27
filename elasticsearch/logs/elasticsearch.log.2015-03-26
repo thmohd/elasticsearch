@@ -1,0 +1,41 @@
+[2015-03-26 15:22:16,001][INFO ][node                     ] [The Symbiote] version[1.5.0], pid[9545], build[5448160/2015-03-23T14:30:58Z]
+[2015-03-26 15:22:16,001][INFO ][node                     ] [The Symbiote] initializing ...
+[2015-03-26 15:22:16,006][INFO ][plugins                  ] [The Symbiote] loaded [], sites []
+[2015-03-26 15:22:19,307][INFO ][node                     ] [The Symbiote] initialized
+[2015-03-26 15:22:19,310][INFO ][node                     ] [The Symbiote] starting ...
+[2015-03-26 15:22:19,471][INFO ][transport                ] [The Symbiote] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.1.10.176:9300]}
+[2015-03-26 15:22:19,517][INFO ][discovery                ] [The Symbiote] elasticsearch/0L5JljrSQN2Qkpy2ZVa5RQ
+[2015-03-26 15:22:23,314][INFO ][cluster.service          ] [The Symbiote] new_master [The Symbiote][0L5JljrSQN2Qkpy2ZVa5RQ][Mohammads-iMac.local][inet[/10.1.10.176:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-26 15:22:23,329][INFO ][http                     ] [The Symbiote] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.1.10.176:9200]}
+[2015-03-26 15:22:23,329][INFO ][node                     ] [The Symbiote] started
+[2015-03-26 15:22:23,361][INFO ][gateway                  ] [The Symbiote] recovered [0] indices into cluster_state
+[2015-03-26 15:23:17,327][INFO ][cluster.metadata         ] [The Symbiote] [drupal] creating index, cause [api], templates [], shards [3]/[2], mappings []
+[2015-03-26 15:24:24,825][INFO ][cluster.metadata         ] [The Symbiote] [company] creating index, cause [api], templates [], shards [1]/[0], mappings []
+[2015-03-26 15:26:18,946][INFO ][cluster.metadata         ] [The Symbiote] [company] update_mapping [employee] (dynamic)
+[2015-03-26 15:38:10,608][INFO ][cluster.metadata         ] [The Symbiote] [drupal] deleting index
+[2015-03-26 16:48:35,312][INFO ][node                     ] [The Symbiote] stopping ...
+[2015-03-26 16:48:35,345][INFO ][node                     ] [The Symbiote] stopped
+[2015-03-26 16:48:35,345][INFO ][node                     ] [The Symbiote] closing ...
+[2015-03-26 16:48:35,356][INFO ][node                     ] [The Symbiote] closed
+[2015-03-26 16:48:40,443][INFO ][node                     ] [MODAM] version[1.5.0], pid[10421], build[5448160/2015-03-23T14:30:58Z]
+[2015-03-26 16:48:40,443][INFO ][node                     ] [MODAM] initializing ...
+[2015-03-26 16:48:40,446][INFO ][plugins                  ] [MODAM] loaded [], sites []
+[2015-03-26 16:48:42,102][INFO ][node                     ] [MODAM] initialized
+[2015-03-26 16:48:42,102][INFO ][node                     ] [MODAM] starting ...
+[2015-03-26 16:48:42,151][INFO ][transport                ] [MODAM] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.1.10.176:9300]}
+[2015-03-26 16:48:42,163][INFO ][discovery                ] [MODAM] elasticsearch/mby9FtVjQIuqTxzMKFUcxA
+[2015-03-26 16:48:45,933][INFO ][cluster.service          ] [MODAM] new_master [MODAM][mby9FtVjQIuqTxzMKFUcxA][Mohammads-iMac.local][inet[/10.1.10.176:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-26 16:48:45,946][INFO ][http                     ] [MODAM] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.1.10.176:9200]}
+[2015-03-26 16:48:45,946][INFO ][node                     ] [MODAM] started
+[2015-03-26 16:48:46,220][INFO ][gateway                  ] [MODAM] recovered [1] indices into cluster_state
+[2015-03-26 16:54:21,918][INFO ][node                     ] [Brainchild] version[1.5.0], pid[10526], build[5448160/2015-03-23T14:30:58Z]
+[2015-03-26 16:54:21,918][INFO ][node                     ] [Brainchild] initializing ...
+[2015-03-26 16:54:21,921][INFO ][plugins                  ] [Brainchild] loaded [], sites []
+[2015-03-26 16:54:23,538][INFO ][node                     ] [Brainchild] initialized
+[2015-03-26 16:54:23,539][INFO ][node                     ] [Brainchild] starting ...
+[2015-03-26 16:54:23,585][INFO ][transport                ] [Brainchild] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/10.1.10.176:9301]}
+[2015-03-26 16:54:23,598][INFO ][discovery                ] [Brainchild] elasticsearch/Mxkv4wYtT561aS6jIwN_kg
+[2015-03-26 16:54:26,624][INFO ][cluster.service          ] [MODAM] added {[Brainchild][Mxkv4wYtT561aS6jIwN_kg][Mohammads-iMac.local][inet[/10.1.10.176:9301]],}, reason: zen-disco-receive(join from node[[Brainchild][Mxkv4wYtT561aS6jIwN_kg][Mohammads-iMac.local][inet[/10.1.10.176:9301]]])
+[2015-03-26 16:54:26,640][INFO ][cluster.service          ] [Brainchild] detected_master [MODAM][mby9FtVjQIuqTxzMKFUcxA][Mohammads-iMac.local][inet[/10.1.10.176:9300]], added {[MODAM][mby9FtVjQIuqTxzMKFUcxA][Mohammads-iMac.local][inet[/10.1.10.176:9300]],}, reason: zen-disco-receive(from master [[MODAM][mby9FtVjQIuqTxzMKFUcxA][Mohammads-iMac.local][inet[/10.1.10.176:9300]]])
+[2015-03-26 16:54:26,664][INFO ][http                     ] [Brainchild] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/10.1.10.176:9201]}
+[2015-03-26 16:54:26,665][INFO ][node                     ] [Brainchild] started
